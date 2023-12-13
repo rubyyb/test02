@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>룹이네쇼핑몰</title>
+    <style>
+        @font-face {
+            font-family: 'HakgyoansimGaeulsopungB';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimGaeulsopungB.woff2') format('woff2');
+            font-weight: 700;
+            font-style: normal;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            margin: 0 auto;
+            width: 1600px;
+        }
+        .best{
+            width: 1600px;
+            margin: 50px auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        div{
+            width: 360px;
+            border:2px solid black;
+        }
+        div img:nth-child(1){
+            border: 3px solid wheat;
+            box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.692);
+        }
+        div img:nth-child(2){
+            border: 3px solid wheat;
+        }
+        div img:nth-child(3){
+            border: 3px solid wheat;
+        }
+        div img:nth-child(4){
+            border: 3px solid wheat;
+        }
+        div img{
+            width: 100%;
+            height: 360px;
+            object-fit: cover;
+            display: block;
+        }
+        div strong {
+            display: block;
+            padding: 10px 0;
+            text-align: center;
+            font-family: 'HakgyoansimGaeulsopungB';
+            font-size: 50px;
+        }
+        div a{
+            text-decoration: none;
+            background-color:lightsalmon;
+            color: aliceblue;
+            text-align: center;
+            margin: auto;
+            padding: 10px 5px;
+            width: 300px;
+            display: block;
+            border-radius: 20px;
+            font-family: 'HakgyoansimGaeulsopungB';
+        }
+        div a:hover{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>룹이네 쇼핑몰</h1>
+    <div class="best">
+        <div>
+            <img src="img/the xxxx.JPG" alt="the xxxx"/>
+            <strong>the xxxx</strong>
+            <a href="https://thexxxy.com/">옷 보러가기</a>
+        </div>
+        <div>
+            <img src="img/온트러스트.jpg" alt="온터러스트"/>
+            <strong>온터러스트</strong>
+            <a href="https://ontrust.co.kr/index.html">옷 보러가기</a>
+        </div>
+        <div>
+            <img src="img/플레인요거트.jpg" alt="플레인요거트"/>
+            <strong>메리데이트</strong>
+            <a href="https://www.merrydate.co.kr/index.html">옷 보러가기</a>
+        </div>
+        <div>
+            <img src="img/피윌.jpg" alt="피월"/>
+            <strong>피월</strong>
+            <a href="https://pwill.co.kr/index.html">옷 보러가기</a>
+        </div>
+    </div><!-- best end -->
+</body>
+</html>
